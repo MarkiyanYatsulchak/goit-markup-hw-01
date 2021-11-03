@@ -9,10 +9,16 @@ body {
   color: #212121;
 }
 
-.header-text {
+.header-text .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  color: var(--main-text-color);
+}
+
+.header-text .link:hover,
+:focus {
+  color: var(--link-text-color);
 }
 
 .site-nav .link {
